@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #071330;
+    text-decoration: none;
+    height: auto;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+#executives{
+    padding-bottom: 7%;
+}
+#executives h2{
+    text-align: center;
+    color: rgb(174, 190, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 2.7%;
+    margin-bottom: 3%;
+    padding: 10px;
+    text-decoration: underline rgb(93, 127, 238);
+}
+#executives .executive{
+    display: inline-block;
+    width: 28%;
+    margin: 0 auto;
+    margin-left: 2.7%;
+    margin-top: 4%;
+    padding-right: 1.5%;
+}
+#executives .executive img{
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+}
+#executives .executive img:hover{
+    padding-bottom: 0;
+    box-shadow: 10px 10px #6d0083;
+    transition: .2s;
+}
+#executives .executive p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    align-items: center;
+    font-weight: bold;
+}
+#executives .executive span{
+    font-size: 80%;
+    font-weight: normal;
+}
+@media(max-width:960px){
+    #executives h2{
+        font-size: 45px;
+    }
+    #executives .executive{
+        width: 28%;
+    }
+    #executives .executive p{
+        font-size: 100%;
+    }
+    #executives .executive span{
+        font-size: 60%;
+    }
+}
+@media(max-width:620px){
+    #executives h2{
+        font-size: 40px;
+    }
+    #executives .executive{
+        width: 44%;
+    }
+    #executives .executive p{
+        font-size: 100%;
+    }
+    #executives .executive span{
+        font-size: 60%;
+    }
+}
+@media(max-width:440px){
+    #executives h2{
+        font-size: 35px;
+    }
+    #executives .executive{
+        width: 90%;
+    }
+    #executives .executive p{
+        font-size: 120%;
+    }
+    #executives .executive span{
+        font-size: 90%;
+    }
+}
