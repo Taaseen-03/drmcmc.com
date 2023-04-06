@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="gallery.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="preloader"></div>
     <div id="gallery">
-        <h2>Gallery</h2>
+        <h2 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">Gallery</h2>
         <div class="pic-section">
             <div class="pic">
-                <img src="Gallery/gallery1.jpg" alt="">
-                <img src="Gallery/gallery2.jpg" alt="">
-                <img src="Gallery/gallery3.jpg" alt="">
-                <img src="Gallery/gallery4.jpg" alt="">
-                <img src="Gallery/gallery5.jpg" alt="">
-                <img src="Gallery/gallery16.jpg" alt="">
-                <img src="Gallery/gallery18.png" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery1.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery2.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery3.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery4.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery5.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery16.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery18.png" alt="">
             </div>       
             <div class="pic">
-                <img src="Gallery/gallery6.jpg" alt="">
-                <img src="Gallery/gallery7.jpg" alt="">
-                <img src="Gallery/gallery8.jpg" alt="">
-                <img src="Gallery/gallery9.jpg" alt="">
-                <img src="Gallery/gallery10.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery6.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery7.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery8.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery9.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"  src="Gallery/gallery10.jpg" alt="">
             </div>   
             <div class="pic">
-                <img src="Gallery/gallery11.jpg" alt="">
-                <img src="Gallery/gallery12.jpg" alt="">
-                <img src="Gallery/gallery13.jpg" alt="">
-                <img src="Gallery/gallery14.jpg" alt="">
-                <img src="Gallery/gallery15.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"  src="Gallery/gallery11.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery12.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery13.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery14.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="Gallery/gallery15.jpg" alt="">
             </div>
         </div>
         <div class="popup-image">
@@ -41,17 +42,14 @@
             <img src="Gallery/gallery1.jpg" alt="">
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({once: true});
+    </script>
     <script>
 
-ScrollReveal({
-        //reset: true,
-        distance: '60px',
-        duration: 2500,
-        delay: 400
-      });
 
-      ScrollReveal().reveal('h2', { delay: 500, origin: 'left' });
-      ScrollReveal().reveal('.pic img', { delay: 600, origin: 'top' , interval: 150});
 
         var loader = document.getElementById("preloader");
       window.addEventListener("load", function(){
