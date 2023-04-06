@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #071330;
+    background-color: #000b23;
     text-decoration: none;
     height: auto;
     color: white;
@@ -173,7 +173,7 @@ body{
   /******************About part*******************/
 #about{
     margin-top: 7%;
-    background-color: #071330;
+    background-color: #000b23;
     padding-top: 0%;
 }
 /*About Club part*/
@@ -237,7 +237,7 @@ body{
     border: 5px solid #6d0083;
     border-radius: 20px;
     margin-left: 2.7%;
-    margin-right: 4%;
+    margin-right: 6.6%;
     margin-bottom: 2%;
 }
 #about .testimonial .principal .prin-des{
