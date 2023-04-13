@@ -17,7 +17,7 @@ body{
 
 }
 #preloader{
-    background: #001830 url(preloader.gif) no-repeat center center;
+    background: #4d0030 url(preloader.gif) no-repeat center center;
     background-size: 7%;
     height: 100vh;
     width: 100%;
@@ -58,7 +58,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: none;
 }
 #home .menu-list{
@@ -69,8 +69,8 @@ body{
 }
 #home .menu-list li a{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
     font-weight: 600;
     padding: 10px 17px 10px 17px;
     text-decoration: none;
@@ -89,14 +89,11 @@ body{
     background-attachment: fixed;
 }
 #home .banner p{
-    padding-top: 18%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 21%;
+    font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
-    font-size: 90px;
+    font-size: 50px;
     text-align: center;
-}
-#home .banner p span{
-    font-size: 20px;
 }
 .icon{
     color: #fff;
@@ -160,7 +157,7 @@ body{
     }
     #home .banner p{
         padding-top: 250px;
-        font-size: 60px;
+        font-size: 40px;
     }
     #home .banner p span{
         font-size: 15px;
@@ -192,8 +189,8 @@ body{
 }
 #about .about-club h2{
     display: inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
     padding-bottom: 2%;
     color: rgb(189, 202, 246);
     font-weight: bolder;
@@ -212,193 +209,41 @@ body{
 #about .about-club p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
-
 }
-/*Testimonial Part*/
-#about .testimonial h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    padding-bottom: 2%;
-    color: rgb(189, 202, 246);
-    font-weight: bolder;
-    margin-left: 2.7%;
-    
-}
-#about .testimonial h2 span{
-    text-decoration: overline 3px rgb(93, 127, 238) ;
-}
-/*Principal Sir part*/
-#about .testimonial .principal{
-    padding-bottom: 0%;
-}
-#about .testimonial .principal img{
-    float: right;
-    width: 20%;
-    border: 5px solid #6d0083;
-    border-radius: 20px;
-    margin-left: 2.7%;
-    margin-right: 6.6%;
-    margin-bottom: 2%;
-}
-#about .testimonial .principal .prin-des{
-    width: 60%;
-    border: 5px solid #6d0083;
-    background: rgba(0, 65, 91, 0.599);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    margin-bottom: 2%;
-    margin-left: 2.7%;
-    margin-right: 2%;
-}
-#about .testimonial .principal .principal-designation{
+#about .club-moderators{
     display: block;
-    margin-left: 2.7%;
-}
-#about .testimonial .principal .principal-designation h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-}
-#about .testimonial .principal .principal-designation p{
-    font-size: 19px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    margin-bottom: 15%;
-}
-/*Coordinator Sir part*/
-#about .testimonial .coordinator{
-    display: inline-block;
-    margin-left: 2.7%;
+    margin: 0 auto;
+    margin-top: 4%;
     margin-bottom: 5%;
-    padding-left: 2%;
-    padding-top: 2%;
-    border-left: 5px solid #6d0083;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#about .testimonial .coordinator .coordinator-img img{
-    width: 250px;
-    margin-right: 4%;
-    margin-bottom: 4%;
-    float: left;
-    border-radius: 20px;
-}
-#about .testimonial .coordinator .coordinator-des{
+#about .club-moderators .moderator{
     display: inline-block;
-    width: 60%;
-    border: 5px solid #6d0083;
-    background: rgba(0, 65, 91, 0.599);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 20px;
-    margin-bottom: 4%;
-    font-size: 19px;
-}
-#about .testimonial .coordinator .coordinator-designation{
-    margin-top: 3%;
-}
-#about .testimonial .coordinator .coordinator-designation h4{
-    font-size: 25px;
-    margin-bottom: 1%;
-}
-#about .testimonial .coordinator .coordinator-designation p{
-    font-size: 18px;
-}
-/*Moderator Sir part*/
-#about .testimonial .moderator{
-    display: inline-block;
+    width: 28%;
+    margin: 0 auto;
     margin-left: 2.7%;
-    margin-bottom: 5%;
-    padding-left: 2%;
-    padding-top: 2%;
-    border-left: 5px solid #6d0083;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 1.5%;
 }
-#about .testimonial .moderator .moderator-img img{
-    width: 260px;
-    margin-right: 4%;
-    margin-bottom: 4%;
-    float: left;
+#about .club-moderators .moderator img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
-#about .testimonial .moderator .moderator-des{
-    display: inline-block;
-    width: 60%;
-    border: 5px solid #6d0083;
-    background: rgba(0, 65, 91, 0.599);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 20px;
-    margin-bottom: 4%;
-    font-size: 19px;
+#about .club-moderators .moderator p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    text-align: center;
 }
-#about .testimonial .moderator .moderator-designation{
-    margin-top: 3%;
+#about .club-moderators .moderator p span{
+    font-size: 14px;
 }
-#about .testimonial .moderator .moderator-designation h4{
-    font-size: 25px;
-    margin-bottom: 1%;
-}
-#about .testimonial .moderator .moderator-designation p{
-    font-size: 18px;
-}
-@media(max-width:1100px){
-    #about .about-club h2{
-        font-size: 37px;
+@media(max-width:952px){
+    #about .club-moderators .moderator p{
+        font-size: 13px;
     }
-    #about .about-club p{
-        font-size: 15px;
-    }
-    #about .testimonial h2{
-        font-size: 37px;
-    }
-}
-@media(max-width:950px){
-    #about .about-club h2{
-        font-size: 30px;
-    }
-    #about .about-club p{
-        font-size: 14px;
-    }
-    #about .testimonial .principal .prin-des{
-        font-size: 16px;
-    }
-    #about .testimonial h2{
-        font-size: 30px;
-    }
-    #about .testimonial .principal .principal-designation h4{
-        font-size: 27px;
-    }
-    #about .testimonial .principal .principal-designation p{
-        font-size: 17px;
-    }
-    /*Coordinator*/
-    #about .testimonial .coordinator .coordinator-img img{
-        width: 200px;
-    }
-    #about .testimonial .coordinator .coordinator-des{
-        font-size: 16px;
-    }
-    #about .testimonial .coordinator .coordinator-designation h4{
-        font-size: 22px;
-        margin-bottom: 1%;
-    }
-    #about .testimonial .coordinator .coordinator-designation p{
-        font-size: 14px;
-    }
-    /*Moderator*/
-    #about .testimonial .moderator .moderator-img img{
-        width: 200px;
-    }
-    #about .testimonial .moderator .moderator-des{
-        font-size: 16px;
-    }
-    #about .testimonial .moderator .moderator-designation h4{
-        font-size: 22px;
-        margin-bottom: 1%;
-    }#about .testimonial .moderator .moderator-designation p{
-        font-size: 14px;
+    #about .club-moderators .moderator p span{
+        font-size: 11px;
     }
 }
 @media(max-width:850px){
@@ -418,52 +263,19 @@ body{
         width: 80%;
         margin: 0 auto;
     }
-    #about .testimonial .principal .prin-des{
-        font-size: 15px;
+    #about .club-moderators .moderator p{
+        font-size: 11px;
     }
-    #about .testimonial .principal .principal-designation h4{
-        font-size: 24px;
-    }
-    #about .testimonial .principal .principal-designation p{
-        font-size: 15px;
-    }
-}
-@media(max-width: 750px){
-/*Coordinator*/
-    #about .testimonial .coordinator .coordinator-img img{
-        width: 180px;
-    }
-    #about .testimonial .coordinator .coordinator-des{
-        font-size: 14px;
-    }
-    #about .testimonial .coordinator .coordinator-designation h4{
-        font-size: 20px;
-        margin-bottom: 1%;
-    }
-    #about .testimonial .coordinator .coordinator-designation p{
-        font-size: 13px;
-    }
-/*Moderator*/
-    #about .testimonial .moderator .moderator-img img{
-        width: 180px;
-    }
-    #about .testimonial .moderator .moderator-des{
-        font-size: 14px;
-    }
-    #about .testimonial .moderator .moderator-designation h4{
-        font-size: 20px;
-        margin-bottom: 1%;
-    }#about .testimonial .moderator .moderator-designation p{
-        font-size: 13px;
+    #about .club-moderators .moderator p span{
+        font-size: 10px;
     }
 }
 @media(max-width:700px){
-    #about .testimonial .principal img{
-        width: 25%;
+    #about .club-moderators .moderator p{
+        font-size: 9px;
     }
-    #about .testimonial .principal .prin-des{
-        width: 55%;
-        font-size: 14px;
+    #about .club-moderators .moderator p span{
+        font-size: 8px;
     }
 }
 @media(max-width:500px){
@@ -473,84 +285,17 @@ body{
     #about .about-club p{
         font-size: 13px;
     }
-    #about .testimonial h2{
-        font-size: 25px;
-        text-align: center;
-        text-decoration: overline 3px rgb(93, 127, 238) ;;
-    }
-    #about .testimonial .principal img{
+    #about .club-moderators .moderator{
         display: block;
-        float: none;
-        width: 40%;
         margin: 0 auto;
-        margin-bottom: 3%;
+        width: 70%;
+        margin-bottom: 5%;
     }
-    #about .testimonial .principal .prin-des{
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-    }
-    #about .testimonial .principal-designation{
-        margin-top: 3%;
-    }
-    #about .testimonial .principal .principal-designation h4{
-        font-size: 17px;
-    }
-    #about .testimonial .principal .principal-designation p{
+    #about .club-moderators .moderator p{
         font-size: 14px;
     }
-/*Coordinator*/
-    #about .testimonial .coordinator{
-        border: none;
-        margin-left: 0;
-        padding-left: 0;
-    }
-    #about .testimonial .coordinator .coordinator-img img{
-        width: 160px;
-        display: block;
-        float: none;
-        margin: 0 auto;
-        margin-bottom: 3%;
-    }
-    #about .testimonial .coordinator .coordinator-des{
-        font-size: 14px;
-        display: block;
-        margin-left: 0;
-        margin: 0 auto;
-        width: 80%;
-    }
-    #about .testimonial .coordinator .coordinator-designation h4{
-        font-size: 20px;
-        margin-bottom: 1%;
-    }
-    #about .testimonial .coordinator .coordinator-designation p{
-        font-size: 13px;
-    }
-/*Moderator*/
-    #about .testimonial .moderator{
-        border: none;
-        margin-left: 0;
-        padding-left: 0;
-    }
-    #about .testimonial .moderator .moderator-img img{
-        width: 160px;
-        display: block;
-        float: none;
-        margin: 0 auto;
-        margin-bottom: 3%;
-    }
-    #about .testimonial .moderator .moderator-des{
-        font-size: 14px;
-        display: block;
-        margin-left: 0;
-        margin: 0 auto;
-        width: 80%;
-    }
-    #about .testimonial .moderator .moderator-designation h4{
-        font-size: 20px;
-        margin-bottom: 1%;
-    }#about .testimonial .moderator .moderator-designation p{
-        font-size: 13px;
+    #about .club-moderators .moderator p span{
+        font-size: 12px;
     }
 }
   /******************Event part*******************/
@@ -567,7 +312,7 @@ body{
 }*/
 #event h2{
     color: rgb(174, 190, 244);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     margin-top: 3%;
     margin-left: 2.7%;
@@ -741,8 +486,8 @@ body{
 #gallery h2{
     color: rgb(227, 230, 241);
     padding-top: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 5%;
     text-decoration: underline rgb(93, 127, 238);
@@ -806,8 +551,8 @@ body{
 }
 #executives h2{
     color: rgb(174, 190, 244);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
     padding-top: 3%;
     margin-left: 2.7%;
     margin-bottom: 3%;
@@ -864,7 +609,7 @@ body{
 }
 @media(max-width:960px){
     #executives h2{
-        font-size: 45px;
+        font-size: 30px;
     }
     #executives .executive{
         width: 28%;
@@ -884,7 +629,7 @@ body{
 }
 @media(max-width:620px){
     #executives h2{
-        font-size: 40px;
+        font-size: 25px;
     }
     #executives .executive{
         width: 44%;
@@ -904,7 +649,7 @@ body{
 }
 @media(max-width:440px){
     #executives h2{
-        font-size: 35px;
+        font-size: 20px;
     }
     #executives .executive{
         width: 90%;
