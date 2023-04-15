@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader"></div>
+    <div id="gallery">
+        <h2 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">Gallery</h2>
+        <div class="pic-section">
+            <div class="pic">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery1.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery2.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery3.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery4.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery5.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery16.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery18.png" alt="">
+            </div>       
+            <div class="pic">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery6.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery7.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery8.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery9.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery10.jpg" alt="">
+            </div>   
+            <div class="pic">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery11.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery12.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery13.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery14.jpg" alt="">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" src="/Gallery/img/gallery15.jpg" alt="">
+            </div>
+        </div>
+        <div class="popup-image">
+            <span>&times;</span>
+            <img src="/Gallery/img/gallery1.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({once: true});
+    </script>
+    
+    <script>
+    var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+
+      document.querySelectorAll('.pic img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+    </script>
+</body>
+</html>
