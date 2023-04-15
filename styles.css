@@ -17,7 +17,7 @@ body{
 
 }
 #preloader{
-    background: #4d0030 url(preloader.gif) no-repeat center center;
+    background: #36003b url(preloader.gif) no-repeat center center;
     background-size: 7%;
     height: 100vh;
     width: 100%;
@@ -89,7 +89,7 @@ body{
     background-attachment: fixed;
 }
 #home .banner p{
-    padding-top: 21%;
+    padding-top: 18%;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     font-size: 50px;
@@ -109,9 +109,9 @@ body{
   }
 #home img{
     position: absolute;
-    width: 9%;
-    top: 12%;
-    left: 2.7%;
+    width: 18%;
+    top: 50%;
+    left: 40%;
     z-index: 0;
 
 }
@@ -165,7 +165,23 @@ body{
     #home img{
         width: 15%;
     }
-  }
+}
+@media(max-width:700px){
+    #home img{
+        width: 25%;
+        left: 37.5%;
+    }
+}
+@media(max-width:610px){
+    #home .banner p{
+        font-size: 30px;
+    }
+}
+@media(max-width:430px){
+    #home .banner p{
+        font-size: 25px;
+    }
+}
 
   /******************About part*******************/
 #about{
