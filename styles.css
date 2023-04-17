@@ -89,11 +89,17 @@ body{
     background-attachment: fixed;
 }
 #home .banner p{
-    padding-top: 18%;
+    padding-top: 17%;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
+    padding-bottom: 2%;
+}
+#home .banner img{
+    width: 16%;
+    display: block;
+    margin: 0 auto;
 }
 .icon{
     color: #fff;
@@ -107,14 +113,6 @@ body{
     right: 30px;
     top: 20px;
   }
-#home img{
-    position: absolute;
-    width: 18%;
-    top: 50%;
-    left: 40%;
-    z-index: 0;
-
-}
 @media(max-width:1000px){
     #home .navigation ul li a{
         padding-left: 10px;
@@ -162,19 +160,14 @@ body{
     #home .banner p span{
         font-size: 15px;
     }
-    #home img{
-        width: 15%;
-    }
 }
-@media(max-width:700px){
-    #home img{
-        width: 25%;
-        left: 37.5%;
-    }
-}
+
 @media(max-width:610px){
     #home .banner p{
         font-size: 30px;
+    }
+    #home .banner img{
+        width: 30%;
     }
 }
 @media(max-width:430px){
