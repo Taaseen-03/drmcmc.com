@@ -16,14 +16,14 @@ body{
     width: 100%;
 
 }
-#preloader{
+/**#preloader{
     background: #36003b url(preloader.gif) no-repeat center center;
     background-size: 7%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+}**/
 /******************Home part*******************/
 #home{
     background-color: rgb(0, 0, 43);
