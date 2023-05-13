@@ -29,7 +29,7 @@ body{
     background-color: rgb(0, 0, 43);
     width: 100%;
     height: auto;
-    background-image: url(bg-img/home-bg.jpg);
+    background-image: url(bg-img/home-bg.webp);
     background-attachment: fixed;
 }
 #home .content{
@@ -310,7 +310,7 @@ body{
   /******************Event part*******************/
 #event{
     display: inline-block;
-    background-image: url(bg-img/event-bg.jpg);
+    background-image: url(bg-img/event-bg.webp);
     padding-bottom: 7%;
 }
 /*#event .event-background video{
@@ -489,7 +489,7 @@ body{
   /******************Gallery part*******************/
 #gallery{
     width: 100%;
-    background:url(bg-img/gallery-bg.jpg);
+    background:url(bg-img/gallery-bg.webp);
     padding-bottom: 5%;
 }
 #gallery h2{
@@ -672,7 +672,7 @@ body{
 }
 /***********************Contact Part**********************/
 #contact{
-    background-image: url(bg-img/contact-bg.jpg);
+    background-image: url(bg-img/contact-bg.webp);
     padding-bottom: 5%;
 }
 #contact .services{
