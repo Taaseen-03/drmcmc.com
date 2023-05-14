@@ -235,6 +235,7 @@
     const menu = document.querySelector(".menu-list");
     const menuBtn = document.querySelector(".menu-btn");
     const cancelBtn = document.querySelector(".cancel-btn");
+    const navLinks = document.querySelectorAll(".menu-list a");
     menuBtn.onclick = ()=>{
       menu.classList.add("active");
       menuBtn.classList.add("hide");
@@ -247,7 +248,14 @@
       cancelBtn.classList.remove("show");
       body.classList.remove("disabledScroll");
     }
-
+    navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+    menu.classList.remove("active");
+    menuBtn.classList.remove("hide");
+    cancelBtn.classList.remove("show");
+    body.classList.remove("disabledScroll");
+  });
+});
     window.onscroll = ()=>{
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
     }
